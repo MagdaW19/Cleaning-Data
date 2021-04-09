@@ -1,0 +1,29 @@
+education package
+=================
+
+Submodules
+----------
+
+education.data\_load module
+---------------------------
+
+.. automodule:: education.data_load
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+education.utils module
+----------------------
+
+.. automodule:: education.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: education
+   :members:
+   :undoc-members:
+   :show-inheritance:
