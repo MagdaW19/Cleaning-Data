@@ -1,6 +1,13 @@
 # Education data 
-Cleaning data regarding education from https://data.worldbank.org/ <br>
-using Python data science packages (numpy, pandas, matplotlib, seaborn). <br>
+Cleaning data regarding education from https://data.worldbank.org/. <br>
+Using Python data science packages:
+- numpy, 
+- pandas, 
+- matplotlib, 
+- seaborn <br>
+
+Data used in this project can be downloaded under:<br>
+https://databank.worldbank.org/data/download/Edstats_csv.zip
 
 # Visualization
 Clean data will be used to prepare visualization in Tableau.

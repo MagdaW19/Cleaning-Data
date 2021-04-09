@@ -12,5 +12,58 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-    """Module with utility functions for cleaning data.
+"""Module with utility functions for cleaning data.
+"""
+
+def fix_census_date(x):
+    """Utitlity function fixing the last census date in file with country info
+
+    Parameters
+    ----------
+    x : str
+        Year or Year with adnotations
+
+    Returns
+    -------
+    str
+        Year as string 
     """
+    x = str(x)
+    if x == "Guernsey: 2009; Jersey: 2011.":
+        return "2009"
+    elif len(x)>4:
+        return x[:4]
+    else:
+        return x
+
+def is_country(x):
+    """Utility function checking if short name belongs to country or region/group """
+    regions = ['Arab World',
+                'East Asia & Pacific (developing only)',
+                'East Asia & Pacific (all income levels)',
+                'Europe & Central Asia (developing only)',
+                'Europe & Central Asia (all income levels)',
+                'Euro area',
+                'European Union',
+                'High income',
+                'Heavily indebted poor countries (HIPC)',
+                'Latin America & Caribbean (developing only)',
+                'Latin America & Caribbean (all income levels)',
+                'Least developed countries: UN classification',
+                'Low income',
+                'Lower middle income',
+                'Low & middle income',
+                'Middle East & North Africa (all income levels)',
+                'Middle income',
+                'Middle East & North Africa (developing only)',
+                'North America',
+                'OECD members',
+                'South Asia',
+                'Sub-Saharan Africa (developing only)',
+                'Sub-Saharan Africa (all income levels)',
+                'Upper middle income',
+                'World']
+    if x not in regions:
+        return True
+    else:
+        return False
