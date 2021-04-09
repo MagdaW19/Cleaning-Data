@@ -14,5 +14,6 @@ Clean data will be used to prepare visualization in Tableau.
 Link to Tableau Public and video with vis coming soon.
 
 # Documentation
-Documentation will be available online soon.
+Documentation is available online:
+https://magdaw19.github.io/Cleaning-Data/education.html
 
