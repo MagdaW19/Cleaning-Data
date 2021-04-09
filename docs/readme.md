@@ -1,3 +1,3 @@
 ---
-permalink: /html/education.html
+permalink: /html/index.html
 ---
