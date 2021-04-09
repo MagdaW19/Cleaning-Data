@@ -18,7 +18,12 @@ from education import utils
 
 class TestUtils(unittest.TestCase):
     def test_pop_census(self):
-        pass
+        self.assertEqual(utils.fix_census_date('1943'),'1943')
+        self.assertEqual(utils.fix_census_date('2012. Population'),'2012')
+
+    def test_is_country(self):
+        self.assertEqual(utils.is_country('World'), False)
+        self.assertEqual(utils.is_country('Poland'), True)
 
 if __name__ == '__main__':
     unittest.main()
