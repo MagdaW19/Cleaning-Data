@@ -67,3 +67,15 @@ def is_country(x):
         return True
     else:
         return False
+
+def simplify_indicators(ind):
+    ind = ind.replace('Barro-Lee: ','')
+    ind = ind.replace('Percentage', '%')
+    ind = ind.replace('Average', 'Avg.')
+    ind = ind.replace('Population','Pop.')
+    ind = ind.replace('population','pop.')
+    ind = ind.replace('. Completed Primary','')
+    ind = ind.replace('. Completed Secondary','')
+    ind = ind.replace('. Completed Tertiary','')
+    return ind
+
