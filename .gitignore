@@ -1,5 +1,6 @@
 # data
-data/
+data/processed
+data/raw
 .vscode/
 
 # Byte-compiled / optimized / DLL files
