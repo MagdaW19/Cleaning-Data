@@ -13,7 +13,7 @@ https://databank.worldbank.org/data/download/Edstats_csv.zip
 Clean data was used to prepare visualization in Tableau.<br>
 You can view it on Tableau Public using following link:<br>
 https://public.tableau.com/profile/magda.w.jcicka#!/vizhome/EducationLevel_16182628156150/Educationlevelbycountry<br>
-![example](./images/data_viz.png)
+![example](https://user-images.githubusercontent.com/57555491/114844257-e710c780-9dda-11eb-87a2-cf3293de491c.gif)
 
 # Documentation
 Documentation is available online:
